@@ -8,6 +8,29 @@
     background-repeat: no-repeat;
     height: 600px;
     width: auto;
+    border-radius: 20px;
+    margin: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+.cards_container:has(+*+ :hover){
+    filter: blur(2px);
+}
+
+.cards_container:has(+ :hover){
+    filter: blur(2px);
+}
+
+.cards_container:hover {
+    transform: scale(1.02);
+}
+
+.cards_container:hover+* {
+    filter: blur(2px);
+}
+
+.cards_container:hover+*+* {
+    filter: blur(2px);
 }
 
 .text_content {

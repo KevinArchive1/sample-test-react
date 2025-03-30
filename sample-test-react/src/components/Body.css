@@ -2,4 +2,6 @@
     display: flex;
     justify-content: space-around;
     background-color: beige;
+    padding: 1rem 0 1rem 0;
+    flex-wrap: wrap;
 }

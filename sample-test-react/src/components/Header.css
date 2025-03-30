@@ -16,12 +16,15 @@
 }
 
 .element_holder{
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
+.logo {
+    width: 100px;
+}
 
 img{
     height: 50px;
@@ -29,9 +32,9 @@ img{
 }
 
 .menu {
-    width: 600px;
+    width: 400px;
     display: flex;
-    justify-content:  space-evenly;
+    gap: 50px;
 }
 
 a {
